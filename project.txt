@@ -1,0 +1,13 @@
+[variables]
+title=
+
+
+
+[a]
+b=test conversion
+t=:inputfile "%projectpath%\source\table-sample2.xml"
+t=:xslt table2ruby.xslt
+t=:outputfile "%projectpath%\output\test-ruby2.xml" show
+
+
+
